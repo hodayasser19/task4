@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title> {{title}}</title>
+           <link rel="stylesheet"  href="css/style.css" />
+      </head>
+
+      <body>
+              {{> navbar}}
+              <h1>check weather</h1>
+              <p>country : {{weateherData.country}}</p>
+              <p>latitude : {{weateherData.latitude}}</p>
+              <p>longitude: {{weateherData.longtitude}}</p>
+              <p>current weather:{{weateherData.currentWeather}}</p>
+              <p>temperature : {{weateherData.temperature}}</p>
+      </body>
+</html>
